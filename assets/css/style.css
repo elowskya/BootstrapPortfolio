@@ -93,17 +93,35 @@ h3:after {
 
 
 
-#textBody {
-    background-color: green;
-    }
+.textBody {
+    background-color: #3a0202;
+    display: inline;
+        
 
-.profilePic {
+}
+    
+
+/* .profilePic {
     max-height: 70vh;
     max-width: 50vh;
-    }
+    position: relative;
+    } */
+
+.card-title {
+text-align: center;
+}
+
+.card-text {
+text-align: center;
+}
+
+.card-body {
+    background-color: #3a0202;
+    margin-bottom: 3%;
+}
 
 .links {
-    display: inline;
+    margin: 1%;
 }
 
 .linkName {
