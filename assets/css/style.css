@@ -12,13 +12,17 @@
 
 #portfolioBackground {
     background: url(https://images.pexels.com/photos/784602/pexels-photo-784602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-	background-size: cover, cover;
-	background-position: center, center;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+	color: white;
+	
+	 /* Create the parallax scrolling effect */
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
 }
 
 h1 {
