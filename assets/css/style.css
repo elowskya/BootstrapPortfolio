@@ -156,3 +156,13 @@ padding: 1%;
 #cardBodyFooter a {
 	font-size: 5vh;
 }
+
+#cardHeaderAboutPage {
+	color: black;
+}
+
+
+#cardHeaderPortfolioPage {
+	color: black;
+	background-color: transparent;
+}
