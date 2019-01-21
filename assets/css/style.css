@@ -1,3 +1,11 @@
+/* creating pseudo-state with the nav bar */
+a:hover {
+	background-color: blue;
+}
+
+a:active {
+	background-color: lightblue;
+}
 
 #main {
 	background: url(https://images.pexels.com/photos/784602/pexels-photo-784602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -137,4 +145,14 @@ padding: 1%;
 
 .linkName {
     font-size: 10vh;
+}
+
+#cardBodyFooter {
+	color: white;
+	text-align: center;
+
+}
+
+#cardBodyFooter a {
+	font-size: 5vh;
 }
