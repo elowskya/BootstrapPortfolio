@@ -140,6 +140,10 @@ padding: 1%;
     margin-bottom: 3%;
 }
 
+#cardBodyFooterLinks a {
+	margin: 1%;
+	font-size: 5vh;
+}
 .links {
     margin: 1%;
 }
