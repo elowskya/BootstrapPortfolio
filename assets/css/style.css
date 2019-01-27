@@ -121,6 +121,7 @@ h3:after {
 	padding: 1%;
 	background-color: #3a0202;
 	position: flex;
+	size: 1%;
 }
 
 .card-title {
