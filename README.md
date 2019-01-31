@@ -1,8 +1,8 @@
-Welcome!
 
-This portfolio is a little about myself and some of the projects that I've worked on infused with html, css, and javascript.
+This portfolio is a little about myself and some of the projects that I have worked on.
 
-Enjoy!
+Built with HTML, CSS, and Bootstrap for the Frontend and JavaScript.
 
+View the code locally by opening the index.html in your browser.
 
-Ashley
+View the deployed site at https://elowskya.github.io/BootstrapPortfolio/
