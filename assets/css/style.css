@@ -43,8 +43,6 @@ h1 {
 	position: relative;
     opacity: 100;
     color: white;
-	transform: scale(1);
-	transition: transform 0.5s ease, opacity 1s ease;
 }
 
 h1:before,
@@ -55,8 +53,8 @@ h1:after {
 	background: white;
 	display: block;
 	position: absolute;
-	transition: width 0.4s ease;
-	transition-delay: 0.8s;
+	/* transition: width 0.4s ease;
+	transition-delay: 0.8s; */
 }
 
 h1:before {
