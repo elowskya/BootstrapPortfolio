@@ -7,6 +7,6 @@ View the code locally by opening the index.html in your browser.
 
 
 
-Check back for the deployed site: Current updates are being worked on. 
+<b>Check back for the deployed site: Current updates are being worked on. </b>
 
 
