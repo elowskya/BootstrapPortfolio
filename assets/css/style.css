@@ -1,10 +1,44 @@
 /* creating pseudo-state with the nav bar */
-a:hover {
-	background-color: blue;
+/* navbar {
+    position: sticky;  
+} */
+
+
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+.navbar-toggle {
+  overflow: hidden;
+
+  .icon-bar {
+    transition: opacity, transform;
+    transition-duration: $speed;
+    transition-timing-function: $easing;
+  }
+
+  &:not(.collapsed) {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      &:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+  }
 }
 
-a:active {
-	background-color: lightblue;
+
+
+a.nav-item {
+	border: 2px solid whitesmoke;
+}
+a.nav-item:hover {
+	border: 2px solid darkred;
 }
 
 #main {
@@ -115,11 +149,15 @@ h3:after {
 
 }
 
+.project1 {
+	background-image: url("../images/Rockout.PNG");
+}
+
 #cardWhole:hover {
 	padding: 1%;
 	background-color: #3a0202;
-	position: flex;
-	size: 1%;
+	/* position: flex;
+	size: 1%; */
 }
 
 .card-title {
@@ -135,19 +173,21 @@ padding: 1%;
 .card-body {
 	background-color: #3a0202;
 	background-image: linear-gradient(to bottom right, rgba(120,0,0,0), rgba(120,0,0,1));
-    margin-bottom: 3%;
 }
 
-#cardBodyFooterLinks a {
+footer {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.card-link, i {
 	margin: 1%;
 	font-size: 5vh;
-}
-.links {
-    margin: 1%;
-}
-
-.linkName {
-    font-size: 10vh;
+	margin: 0 auto;
+	color: white;	
+	text-align: center;
 }
 
 #cardBodyFooter {
